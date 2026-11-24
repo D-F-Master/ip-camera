@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">IP Camera</string>
+    <string name="start_service">开启服务</string>
+    <string name="stop_service">停止服务</string>
+    <string name="switch_camera">切换摄像头</string>
+    <string name="settings">设置</string>
+    <string name="status_idle">服务未启动</string>
+    <string name="status_running">服务运行中</string>
+    <string name="status_error">启动失败：%1$s</string>
+    <string name="port">端口号</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="save">保存</string>
+    <string name="rtsp_address">RTSP 地址：%1$s</string>
+    <string name="permission_needed">需要摄像头权限</string>
+    <string name="h265_unsupported">设备不支持 H265 编码</string>
+
+    <string name="rtsp_settings">RTSP 服务设置</string>
+    <string name="camera_settings">摄像头设置</string>
+    <string name="camera_device">摄像头</string>
+    <string name="resolution">分辨率</string>
+    <string name="fps">帧率</string>
+    <string name="bitrate">码率</string>
+    <string name="keyframe_interval">关键帧间隔</string>
+    <string name="auto_skip_black">自动跳过无画面摄像头</string>
+    <string name="saved_restart_hint">已保存</string>
+
+    <string-array name="resolution_entries">
+        <item>640x480</item>
+        <item>960x540</item>
+        <item>1280x720</item>
+        <item>1920x1080</item>
+    </string-array>
+    <string-array name="fps_entries">
+        <item>15 fps</item>
+        <item>20 fps</item>
+        <item>25 fps</item>
+        <item>30 fps</item>
+    </string-array>
+    <string-array name="fps_values">
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="bitrate_entries">
+        <item>1 Mbps</item>
+        <item>2 Mbps</item>
+        <item>4 Mbps</item>
+        <item>6 Mbps</item>
+    </string-array>
+    <string-array name="bitrate_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="keyframe_interval_entries">
+        <item>1 秒</item>
+        <item>2 秒</item>
+        <item>3 秒</item>
+        <item>5 秒</item>
+    </string-array>
+    <string-array name="keyframe_interval_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+</resources>

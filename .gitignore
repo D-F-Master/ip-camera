@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+*/build/
+local.properties
+gradle-wrapper.jar
+.gradle-cache/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Android / signing
+*.keystore
+*.jks
+debug.keystore
+
+# Build outputs / temp artifacts
+*.apk
+*.h265
+*.png
+*.jpg
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
