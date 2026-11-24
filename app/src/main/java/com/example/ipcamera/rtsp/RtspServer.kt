@@ -189,7 +189,6 @@ class RtspServer(
 
         private fun handleRequest(req: Request) {
             val cSeq = req.headers["cseq"] ?: "0"
-            Log.d(tag, "RTSP ${req.method} ${req.uri} transport=${req.headers["transport"]} auth=${req.headers["authorization"]?.take(60)}")
             when (req.method) {
                 "OPTIONS" -> sendResponse(
                     "200 OK",
